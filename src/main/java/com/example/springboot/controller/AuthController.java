@@ -1,7 +1,7 @@
-package com.example.hello_world.controller;
+package com.example.springboot.controller;
 
-import com.example.hello_world.model.AuthUser;
-import com.example.hello_world.service.AuthService;
+import com.example.springboot.model.AuthUser;
+import com.example.springboot.service.AuthService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

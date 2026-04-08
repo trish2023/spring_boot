@@ -1,4 +1,4 @@
-package com.example.hello_world;
+package com.example.springboot;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

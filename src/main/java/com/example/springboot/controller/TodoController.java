@@ -1,7 +1,7 @@
-package com.example.hello_world.controller;
+package com.example.springboot.controller;
 
-import com.example.hello_world.model.Todo;
-import com.example.hello_world.service.TodoService;
+import com.example.springboot.model.Todo;
+import com.example.springboot.service.TodoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;

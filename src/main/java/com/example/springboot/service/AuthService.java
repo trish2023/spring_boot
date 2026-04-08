@@ -1,7 +1,7 @@
-package com.example.hello_world.service;
+package com.example.springboot.service;
 
-import com.example.hello_world.model.AuthUser;
-import com.example.hello_world.repository.AuthUserRepository;
+import com.example.springboot.model.AuthUser;
+import com.example.springboot.repository.AuthUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
-package com.example.hello_world.controller;
+package com.example.springboot.controller;
 
-import com.example.hello_world.model.User;
-import com.example.hello_world.service.UserService;
+import com.example.springboot.model.User;
+import com.example.springboot.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;

@@ -1,6 +1,6 @@
-package com.example.hello_world.repository;
+package com.example.springboot.repository;
 
-import com.example.hello_world.model.AuthUser;
+import com.example.springboot.model.AuthUser;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 import java.util.Optional;
