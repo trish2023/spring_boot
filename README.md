@@ -28,7 +28,7 @@ DELETE /users/{id}    →  delete a user by id
 ```
 ### 4. User CRUD with MongoDB
 
-Same endpoints as Level 1, but backed by a real database.
+Same endpoints as 3, but backed by a real database.
 
 ```
 GET    /users         →  list all users (from MongoDB)
@@ -53,6 +53,28 @@ DELETE /todos/{id}             →  delete a todo
 {
   "title": "Learn Spring Boot",
   "description": "Finish the CRUD tutorial"
+}
+```
+
+### 6. Login/Register API
+Users can sign up and log in.  
+Passwords are hashed with BCrypt before storing.  
+POST /auth/register → create a new account  
+POST /auth/login → log in with username + password  
+
+**Example register body:**
+```json
+{
+  "username": "randomname",
+  "email": "randomname@example.com",
+  "password": "mypassword123"
+}
+```
+**Example login body:**
+
+```{
+  "username": "randomname",
+  "password": "mypassword123"
 }
 ```
 
