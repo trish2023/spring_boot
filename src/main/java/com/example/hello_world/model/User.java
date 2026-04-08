@@ -1,4 +1,4 @@
-package com.example.hello_world;
+package com.example.hello_world.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

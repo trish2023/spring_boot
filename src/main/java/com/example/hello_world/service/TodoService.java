@@ -1,5 +1,7 @@
-package com.example.hello_world;
+package com.example.hello_world.service;
 
+import com.example.hello_world.model.Todo;
+import com.example.hello_world.repository.TodoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.time.LocalDateTime;
